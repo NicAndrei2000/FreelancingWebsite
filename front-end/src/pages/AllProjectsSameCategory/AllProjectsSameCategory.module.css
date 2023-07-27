@@ -1,0 +1,17 @@
+.AllProjectsSameCategoryBox {
+    /* min-height: 95vh; */
+    padding: 10rem;
+    padding-top: 7rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(calc(25%), 1fr));
+    gap: 0.5rem;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    overflow-y: auto;
+
+  }
+
+ 
+  

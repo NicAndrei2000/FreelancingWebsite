@@ -1,0 +1,32 @@
+.wordSelectorContainer {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+  }
+  
+  .wordSelectorTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+  }
+  
+  .wordSelectorDropdown {
+    width: 100%;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    border: none;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 6px;
+
+  }
+  
+  .wordSelectorSelectedWord {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

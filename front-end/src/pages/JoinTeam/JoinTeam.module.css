@@ -1,0 +1,136 @@
+.form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .institutionsListBox {
+    width: 90%;
+    height: 30rem;
+    margin: 2rem auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+  
+  /* Styles for the scrollbar */
+  .institutionsListBox::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    background-color: #f5f5f5; /* Background color of the scrollbar */
+  }
+  
+  .institutionsListBox::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+  }
+  
+  .institutionsListBox::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
+  
+  .titleForNoInstitution {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    font-size: x-large;
+  }
+  
+  .table {
+    display: flex;
+    flex-direction: column;
+    height: 45rem;
+    margin: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    overflow-y: auto;
+    background: white;
+    margin-top: 7rem;
+
+  }
+  
+  .tableName {
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #e5e5e5;
+    height: fit-content;
+    font-weight: bold;
+    color: #14213d;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    background: white;
+
+
+  }
+  /* .exemplu {
+    width: 100%;
+    margin: 2rem auto;
+    margin-top: 4rem;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+  } */
+  .box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 100%;
+  font-weight: bold;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-bottom: 2px solid #e5e5e5;
+  flex-direction: column;
+  
+  }
+  .inputResult{
+    /* position: relative; */
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px;
+    margin-top: 1.5rem;
+    height: 3rem;
+    width: 30rem;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+  }
+  .parag{
+    text-align: center;
+  }
+  
+  .tableCell {
+    padding: 1rem;
+  }
+  
+  .tableCell:not(:last-child) {
+    border-right: 1px solid #e5e5e5;
+  }
+  
+  /* First Element */
+  .tableCell:nth-child(1) {
+    width: 15%;
+  }
+  
+  /* Second Element */
+  .tableCell:nth-child(2) {
+    width: 15%;
+  }
+  
+  /* Third Element */
+  .tableCell:nth-child(3) {
+    width: 20%;
+  }
+  .tableCell:nth-child(4) {
+    width: 44%;
+  }
+  .tableCell:nth-child(5) {
+    width: 10%;
+  }
+  .tableCell:nth-child(6) {
+    width: 6%;
+  }
+  

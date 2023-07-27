@@ -1,0 +1,11 @@
+.ProjectsCategoryBox {
+    min-height: 95vh;
+    padding: 1rem;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(35%, 1fr));
+    gap: 0.5rem;
+    justify-items: center;
+    align-items: center;
+  }
+  

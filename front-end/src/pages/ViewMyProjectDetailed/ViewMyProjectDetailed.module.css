@@ -1,0 +1,77 @@
+.projectInfo {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.projectInfo h1 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.projectInfo h1 span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.exemplu {
+  width: 100%;
+  margin: 2rem auto;
+  margin-top: 4rem;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
+
+.page {
+  padding-top: 5rem;
+  width: 90%;
+  height: 50rem;
+  max-width: 80rem;
+  margin: 2rem auto;
+  margin-top: 8rem;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  text-align: center;
+}
+.parag {
+  text-align: justify;
+  padding: 1rem;
+  /* margin-right: 0.2rem; */
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+h1 {
+  margin-bottom: 1rem;
+  font-family: Helvetica, sans-serif;
+  font-size: large;
+  padding-top: 2rem;
+  text-align: center;
+}
+.contentPage {
+  height: 95%;
+  overflow: auto;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #fca311;
+  border: none;
+  border-radius: 10px;
+  color: #14213d;
+  width: fit-content;
+  margin-top: 1rem;
+  cursor: pointer;
+}

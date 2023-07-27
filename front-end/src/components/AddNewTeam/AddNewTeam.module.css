@@ -1,0 +1,75 @@
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .formBox {
+    width: 90%;
+    max-width: 60rem;
+    margin: 2rem auto;
+    margin-top: 4rem;
+    padding: 2rem;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    /* position: absolute; /* position the div absolutely 
+      top: 30%; /* position the top of the div at the middle of the page 
+      left: 50%; /* position the left of the div at the middle of the page 
+      transform: translate(-50%, -50%); */
+  }
+  
+  .control {
+    width: 100%;
+    border: none;
+  
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    height: 300px;
+  }
+  
+  .control label,
+  .control textarea {
+    display: block;
+  }
+  
+  .control label {
+    font-weight: bold;
+    color: #464646;
+    margin-top: 10px;
+  }
+  
+  .control textarea {
+    flex: 3;
+    font: inherit;
+    padding: 0.35rem 0.35rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid gray;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .control textarea.error{
+    border-color: rgba(231, 17, 17, 0.993);
+  }
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: #fca311;
+    border: none;
+    border-radius: 10px;
+    color: #14213d;
+    width: fit-content;
+    margin-top: 1rem;
+  }
+  .btn:hover {
+    cursor: pointer;
+    opacity: 0.75;
+  }
+  

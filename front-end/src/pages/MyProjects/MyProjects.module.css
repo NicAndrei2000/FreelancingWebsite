@@ -1,0 +1,12 @@
+.myProjectsBox {
+  min-height: 95vh;
+  padding: 10rem;
+  padding-top: 7rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(calc(25%), 1fr));
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}

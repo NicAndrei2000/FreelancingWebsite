@@ -1,0 +1,50 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.categoryCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 190px;
+  width: 350px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.categoryInfo {
+  display: none;
+}
+
+.categoryCard:hover .categoryInfo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  height: 300px;
+  width: 80px;
+  background: #f8f9ffd1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+  padding: 1rem;
+  top: -3rem;
+  width: 25rem;
+}
+
+.categoryCardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.categoryCardImage {
+  aspect-ratio: 2 / 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+
+  border-radius: 10px;
+}

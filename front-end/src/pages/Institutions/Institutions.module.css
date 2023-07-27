@@ -1,0 +1,13 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+
+.pageTitle {
+  font-size: 2rem;
+  padding: 2rem;
+  color: #14213d;
+  padding-bottom: 0;
+}
